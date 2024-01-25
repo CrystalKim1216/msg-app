@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat - KakaoTalk</title>
+</head>
+
+<body id="chat-screen" class="chat-room">
+  <div class="status-bar chat-room">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>21%</span>
+      <i class="fas fa-battery-quarter fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header chat-room">
+    <div class="alt-header__column">
+      <a href="chats.html">
+        <i class="fa-solid fa-angle-left fa-lg"></i>
+      </a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">Crystal</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      <span><i class="fa-solid fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">
+      Sunday, January 29, 2022
+    </div>
+    <div class="msg-row">
+      <img src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?auto=compress&cs=tinysrgb&w=200" />
+      <div class="msg-row__content">
+        <span class="msg__author">John</span>
+        <div class="msg__info">
+          <span class="msg__bubble">Hi!</span>
+          <span class="msg__time">10:18</span>
+        </div>
+      </div>
+    </div>
+    <div class="msg-row msg-row__own">
+      <div class="msg-row__content">
+        <div class="msg__info">
+          <span class="msg__bubble">whats up?</span>
+          <span class="msg__time">10:21</span>
+        </div>
+      </div>
+    </div>
+    <div class="msg-row">
+      <img src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?auto=compress&cs=tinysrgb&w=200" />
+      <div class="msg-row__content">
+        <span class="msg__author">John</span>
+        <div class="msg__info">
+          <span class="msg__bubble">lets hang out!</span>
+          <span class="msg__time">10:22</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fa-regular fa-square-plus fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" />
+      <i class="fa-regular fa-face-smile fa-lg"></i>
+      <button>
+        <i class="fa-solid fa-arrow-up fa-lg"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <span>Your screen is too big!</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/3942e2fb7b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
